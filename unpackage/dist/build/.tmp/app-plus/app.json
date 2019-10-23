@@ -1,0 +1,73 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/mine/mine",
+    "pages/login/login",
+    "pages/login1/login1",
+    "pages/shopTetail/shopTetail",
+    "pages/order/order",
+    "pages/addressAdd/addressAdd",
+    "pages/addressEdit/addressEdit",
+    "pages/shopCar/shopCar",
+    "pages/orderList/orderList",
+    "pages/favorable/favorable",
+    "pages/wish/wish",
+    "pages/lasty/lasty",
+    "pages/logistics/logistics",
+    "pages/SpecialOrders/SpecialOrders",
+    "pages/delivery/delivery",
+    "pages/assess/assess",
+    "pages/commentList/commentList",
+    "pages/news/news",
+    "pages/seckillDetail/seckillDetail",
+    "pages/seckillList/seckillList",
+    "pages/SpecialtyList/SpecialtyList",
+    "pages/search/search"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uniapp",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "static/image/techan@2x.png",
+        "iconPath": "static/image/techan01@2x.png",
+        "pagePath": "pages/index/index",
+        "text": "特产"
+      },
+      {
+        "selectedIconPath": "static/image/menpiao@2x.png",
+        "iconPath": "static/image/menpiao01@2x.png",
+        "pagePath": "",
+        "text": "门票"
+      },
+      {
+        "selectedIconPath": "static/image/gouwu01@2x.png",
+        "iconPath": "static/image/gouwu@2x.png",
+        "pagePath": "pages/shopCar/shopCar",
+        "text": "购物车"
+      },
+      {
+        "selectedIconPath": "static/image/-wo@2x.png",
+        "iconPath": "static/image/-wo01@2x.png",
+        "pagePath": "pages/mine/mine",
+        "text": "我的"
+      }
+    ]
+  },
+  "nvueCompiler": "uni-app",
+  "renderer": "auto",
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "qianyi",
+  "compilerVersion": "2.3.3",
+  "usingComponents": {}
+}

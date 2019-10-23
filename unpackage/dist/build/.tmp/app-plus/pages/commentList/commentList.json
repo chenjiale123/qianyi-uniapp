@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "商品评价",
+  "usingComponents": {
+    "sunui-upqiniu": "/components/sunui-upimg/sunui-upimg-qiniu",
+    "uni-rate": "/components/uni-rate/uni-rate"
+  }
+}
